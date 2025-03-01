@@ -1,0 +1,17 @@
+{
+  "name": "vue-admin-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "vue-project"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w vue-project",
+    "build": "npm run build -w vue-project",
+    "preview": "npm run preview -w vue-project"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "vue-echarts": "^7.0.3"
+  }
+}
